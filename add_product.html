@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Product</title>
+
+    <link rel="stylesheet" href="./add_product.css" />
+  </head>
+  <body>
+    <form method="post">
+      <div class="input_continer">
+        <label for="nameProduct" class="label"> Product Name : </label>
+        <input type="text" id="nameProduct" class="input" />
+      </div>
+      <div class="input_continer">
+        <label for="number" class="label">product number</label>
+        <input type="text" id="number" class="input" />
+      </div>
+      <div class="input_continer">
+        <label for="type" class="label">type</label>
+        <input type="text" id="type" class="input" />
+      </div>
+      <div class="input_continer">
+        <label for="country" class="label">Country of Origin</label>
+        <select id="country" name="country">
+          
+          <option value="Syria">Syria</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Egypt">Egypt</option>
+        </select>
+      </div>
+      <div class="input_continer">
+        <label for="manufacture" class="label">manufacture of year</label>
+        <input type="number" id="manufacture" class="input" />
+      </div>
+      <div class="input_continer">
+        <label for="price" class="label">price</label>
+        <input type="number" id="price" class="input" />
+      </div>
+      <div>
+        <input type="submit" value="Add product" id="submitBtn" />
+      </div>
+    </form>
+  </body>
+  <script src="./add_product.js"></script>
+</html>

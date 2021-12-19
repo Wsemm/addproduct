@@ -1,0 +1,20 @@
+form {
+  display: block;
+  margin: auto;
+  width: 400px;
+  background-color: red;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.input {
+  display: inline-block;
+  width: 200px;
+}
